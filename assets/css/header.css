@@ -1,0 +1,38 @@
+body::before{
+    display: none;
+}
+header{
+    background-color: var(--color-purple);
+}
+.site-navigation{
+    max-width: 1350px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    max-width: 375px;
+}
+.menu-burger{
+    display: none;
+}
+.menu{
+    /* max-width: 800px; */
+    margin-top: 30px;
+}
+.menu ul{
+    /* max-width: 800px; */
+    display: flex;
+}
+.menu ul li{
+    padding-right: 20px;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: var(--font-size-menu);
+}
+.menu ul li a:hover{
+    opacity: 0.6;
+    transition: 0.2s ease-in-out;
+}
